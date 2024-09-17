@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.11.0 on win32)" generated="2024-09-12T13:28:57.811835" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="C:\DATA\GIT\RobotFramework\Tests">
+<suite id="s1-s1" name="Tc1" source="C:\DATA\GIT\RobotFramework\Tests\tc1.robot">
+<test id="s1-s1-t1" name="TEST1" line="5">
+<kw name="Log value k1 and &lt;key_arg&gt; from dictionary" owner="resources">
+<kw name="Log value from k1 from dictionary" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-12T13:28:57.834672" level="INFO">v1</msg>
+<arg>${DICTIONARY}[k1]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-12T13:28:57.834672" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-12T13:28:57.833675" elapsed="0.000997"/>
+</kw>
+<kw name="Log value from &lt;key_arg&gt; from dictionary" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-12T13:28:57.834672" level="INFO">v2</msg>
+<arg>${KEY}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-12T13:28:57.834672" elapsed="0.000000"/>
+</kw>
+<arg>${KEY}</arg>
+<status status="PASS" start="2024-09-12T13:28:57.834672" elapsed="0.000000"/>
+</kw>
+<arg>${DICTIONARY}[k2]</arg>
+<status status="PASS" start="2024-09-12T13:28:57.833675" elapsed="0.000997"/>
+</kw>
+<status status="PASS" start="2024-09-12T13:28:57.833675" elapsed="0.000997"/>
+</test>
+<status status="PASS" start="2024-09-12T13:28:57.830685" elapsed="0.004984"/>
+</suite>
+<suite id="s1-s2" name="Tc2" source="C:\DATA\GIT\RobotFramework\Tests\tc2.robot">
+<test id="s1-s2-t1" name="TEST1" line="5">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-12T13:28:57.842762" level="INFO">TestCase1</msg>
+<arg>TestCase1</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-12T13:28:57.842762" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-12T13:28:57.841765" elapsed="0.000997"/>
+</test>
+<test id="s1-s2-t2" name="TEST2" line="8">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-09-12T13:28:57.842762" level="INFO">TestCase2</msg>
+<arg>TestCase2</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-09-12T13:28:57.842762" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-09-12T13:28:57.842762" elapsed="0.000000"/>
+</test>
+<status status="PASS" start="2024-09-12T13:28:57.835669" elapsed="0.008090"/>
+</suite>
+<status status="PASS" start="2024-09-12T13:28:57.813880" elapsed="0.029879"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tc1">Tests.Tc1</stat>
+<stat pass="2" fail="0" skip="0" id="s1-s2" name="Tc2">Tests.Tc2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
